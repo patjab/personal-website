@@ -1,0 +1,181 @@
+<html>
+<head>
+  <title>Patrick Abejar</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts/script.js"></script>
+</head>
+<body>
+  <nav>
+      <div class="externalButton">
+        <a href="https://www.github.com/patjab830">
+          <img src="images/icons/github_small.png" class="icon"/>
+        </a>
+      </div>
+      <div class="externalButton">
+        <a href="https://www.linkedin.com/in/patrickabejar">
+          <img src="images/icons/linkedin_small.png" class="icon"/>
+        </a>
+      </div>
+      <div class="externalButton">
+        <a href="https://medium.com/@wireless.patrick">
+          <img src="images/icons/medium.png" class="icon"/>
+        </a>
+      </div>
+      <div class="externalButton">
+        <a href="https://twitter.com/patjab830">
+          <img src="images/icons/twitter_small.png" class="icon"/>
+        </a>
+      </div>
+      <div class="externalButton">
+        <a href="mailto:wireless.patrick@gmail.com">
+          <img src="images/icons/gmail_small.png" class="icon"/>
+        </a>
+      </div>
+
+    <!--Medium: -->
+  </nav>
+
+<section id="firstCard">
+    <div id="cardPic">
+      <img src="images/profilePic.jpg" id="profilePic"/>
+    </div>
+    <div id="cardInfo">
+      <header>Patrick Abejar</header>
+      Web Applications Engineer
+    </div>
+    <br/>
+    <div id="blurb">adding dimensions of creativity and fun to the traditional RESTful CRUD experience</div><br/><br/>
+    <div id ="accomplishments" class="borderedCell">
+      <span class="cellTitle">favorite technologies</span><br/>
+      Canvas | JavaScript ES6 | React | WebRTC | Esolangs<br>
+    </div><br/>
+    <div id="featuredApps" class="borderedCell">
+      <span class="cellTitle">featured apps</span><br/>
+      <input type="Submit" value="Project Manhattan" id="projectManhatanButton" class="buttonToProjects"/>
+      <input type="Submit" value="Dwight's Hay Place" id="dwightsHayPlaceButton" class="buttonToProjects"/>
+      <input type="Submit" value="Queimada Social" id="queimadaSocialButton" class="buttonToProjects"/>
+      <input type="Submit" value="Impatience" id="impatienceButton" class="buttonToProjects"/>
+    </div>
+</section>
+
+<section id="projectManhatanCard">
+  <header>Project Manhattan</header>
+  <figure>
+    <img src="images/gifs/projectmanhattan.gif" class="demoPic demoWide"/>
+    <figcaption><span class="blurb">Quiz-based game where users play as nations showcasing their intelligence to gain talented people to build the atomic bomb</span></figcaption>
+  </figure>
+  <div class="buttonContainer">
+    <input type="Submit" value="Demo" onClick="window.location.href='images/videos/ProjectManhattan.mp4'" class='buttonToExternals'/>
+    <input type="Submit" value="Current Version" onClick="window.location.href='http://manhattanprojectbattle.herokuapp.com/'" class='buttonToExternals'/><br/><br/>
+  </div>
+  <details>
+    <summary>GitHub Repos</summary>
+    <p>
+      <a href="https://github.com/patjab830/manhattan-project-game">Frontend & Backend</a>
+    </p>
+  </details>
+</section>
+
+<section id="dwightsHayPlaceCard">
+  <header>Dwight's Hay Place</header>
+  <figure>
+    <img src="images/gifs/dwightshayplace.gif" class="demoPic demoWide"/>
+    <figcaption><span class="blurb">Utilized vanilla JavaScript, event listeners, and CSS grid to create browser-based maze game based on NBC's The Office</span></figcaption>
+  </figure>
+  <div class="buttonContainer">
+    <input type="Submit" value="Demo" onClick="window.location.href='images/videos/DwightHay.mp4'" class='buttonToExternals'/>
+    <input type="Submit" value="Current Version" onClick="window.location.href='http://dwightshayplace.herokuapp.com/'" class='buttonToExternals'/><br/><br/>
+  </div>
+  <details>
+    <summary>GitHub Repos</summary>
+    <p>
+      <a href="https://github.com/patjab830/dwightshayplace-frontend">Frontend</a>
+    </p>
+    <p>
+      <a href="https://github.com/patjab830/dwightshayplace-api">Backend</a>
+    </p>
+  </details>
+</section>
+
+<section id="queimadaSocialCard">
+  <header>Queimada Social Network</header>
+  <figure>
+    <img src="images/gifs/queimada.gif" class="demoPic demoWide"/>
+    <figcaption><span class="blurb">User friendly and intuitive social networking website for organization with peer-to-peer connection</span></figcaption>
+  </figure>
+  <div class="buttonContainer">
+    <input type="Submit" value="Demo" onClick="window.location.href='images/videos/Queimada.mp4'" class='buttonToExternals'/>
+    <input type="Submit" value="Current Version" onClick="window.location.href='http://queimada.herokuapp.com/'" class='buttonToExternals'/><br/><br/>
+  </div>
+    <details>
+      <summary>GitHub Repos</summary>
+        <p>
+          <a href="https://github.com/patjab830/queimada-frontend">Frontend</a>
+        </p>
+        <p>
+          <a href="https://github.com/patjab830/queimada-api">Backend</a>
+        </p>
+    </details>
+</section>
+
+<section id="impatienceCard">
+  <aside>
+      <img src="images/gifs/impatience.gif" class="demoPic demoLong"/>
+  </aside>
+  <summary>
+    <header>Impatience</header>
+    <span class="blurb">An HTML canvas based game where users dodge crowds of tourists through New York while walking through the city</span><br/>
+    <div class="buttonContainer">
+      <input type="Submit" value="Demo" onClick="window.location.href='images/videos/Impatience.mp4'" class='buttonToExternals'/>
+      <input type="Submit" value="Current Version" onClick="window.location.href='http://impatience.herokuapp.com/'" class='buttonToExternals'/><br/><br/>
+    </div>
+    <details>
+      <summary>GitHub Repos</summary>
+      <ul>
+        <li><a href="https://github.com/patjab830/nyc-impatience-frontend">Frontend</a></li>
+        <li><a href="https://github.com/patjab830/nyc-impatience-api">Backend</a></li>
+      </ul>
+    </details>
+  </summary>
+</section>
+<!--
+<section id="secondCard">
+Highlights:
+  <ul>
+    <li>RESTful CRUD Apps</li>
+    <li>HTML Canvas</li>
+    <li>JavaScript/ ES6 and Frameworks (React)</li>
+    <li>Ruby on Rails, Python</li>
+    <li>POSTGRES and other SQL</li>
+    <li>State Management / Redux</li>
+    <li>WebRTC</li>
+  </ul>
+</section>
+
+
+<article>
+As a student in the Flatiron School, I was given the tools to run around the Internet with an enourmous amount of power.
+My desire to check my newfound RESTful CRUD powers led me into creating different types of apps all over the web. My earlier
+projects involved simple blogging apps, apps that kept track of inventory of whatever, and socializing apps. I wanted a
+challenge, yet I wanted to see what I could create with the same tools I used to create textbook RESTful CRUD applications.
+My created data ended up being game scores, whereas my stored data in the database would be game level related data. I had
+entered the chaotic, yet enjoyable world of game development. As Ruby on Rails and frontend frameworks didn't satisfy my
+thirst for an interactive user experience, I mastered other technologies to add to my powerful toolkit.
+
+I take pride apps that users willingly come back to and easily use.
+</article>
+
+<section>
+Apps:
+<ul>
+  <li>Project Manhattan Trivia Game</li>
+  <li>Dwight's Hay Maze</li>
+  <li>Queimada Social Network</li>
+  <li>Impatience</li>
+</ul>
+</section>
+
+-->
+
+</body>
+</html>

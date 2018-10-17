@@ -1,0 +1,254 @@
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+header {
+  font-weight: thick;
+  font-size: 36px;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: "Arial Rounded MT Bold";
+
+  margin: 0px;
+  padding: 0px;
+
+  display: grid;
+  grid-template-rows: 10px 600px 95vh 95vh 95vh 95vh;
+}
+
+nav {
+  grid-row-start: 1 / 2;
+  grid-column-start: 1 / 5;
+
+  background-color: #000000;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  position: fixed;
+  width: 100vw;
+
+  font-size: 4vh;
+  color: #FFFFFF;
+}
+
+#profilePic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+#profilePic:hover {
+  border-radius: 50%;
+  width: 19vh;
+  height: 19vh;
+}
+
+
+.externalButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+
+}
+
+.icon {
+  max-width: 50px;
+  max-height: 50px;
+  padding: 0.1em;
+}
+
+.icon:hover {
+  max-width: 1.5em;
+  max-height: 1.5em;
+}
+
+.buttonContainer {
+  text-align: center;
+}
+
+
+section {
+  padding: 5px;
+  font-size: 20px;
+  padding-top: 10px;
+
+}
+
+#firstCard {
+  grid-row: 2 / 3;
+  text-align: center;
+  background: #01134B;
+  color: #FFFFFF;
+}
+
+#blurb {
+  font-size: 30px;
+}
+
+.borderedCell {
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  background-color: #1C337A;
+  margin:10px;
+}
+
+.borderedCell:hover {
+  background-color: #29418C;
+}
+
+.cellTitle {
+  font-size: 20px;
+  color: #01134B;
+  padding-left: 7px;
+  padding-right: 7px;
+  position: relative;
+  border-radius: 10px;
+  bottom: 1.75vh;
+  background-color: #FFFFFF;
+}
+
+
+.buttonToProjects {
+  background: #337FF4;
+  border: 0px;
+  font-family: "Arial Rounded MT Bold";
+  font-size: 2.5vh;
+  margin: 10px;
+  padding: 1vh;
+  border-radius: 10px;
+}
+
+.buttonToProjects:hover {
+  background: #3494f4;
+  border: 0px;
+  position: relative;
+  padding: 1.3vh;
+}
+
+
+.buttonToExternals {
+  background: #000000;
+  border: 0px;
+  font-family: "Arial Rounded MT Bold";
+  font-size: 2.5vh;
+  color: #FFFFFF;
+  margin: 10px;
+  padding: 1vh;
+  border-radius: 10px;
+}
+
+.buttonToExternals:hover {
+  background: #555555;
+  border: 0px;
+  padding: 1.3vh;
+
+}
+
+
+section#projectManhatanCard {
+  grid-row: 3 / 4;
+
+  display: grid;
+  grid-template-columns: calc(1920*.40) calc(1920*.60);
+}
+
+section#projectManhatanCard > aside {
+  grid-column: 1;
+}
+
+section#projectManhatanCard > summary {
+  grid-column: 2;
+}
+
+
+
+section#dwightsHayPlaceCard {
+  grid-row: 4 / 5;
+
+  display: grid;
+  grid-template-columns: calc(1920*.40) calc(1920*.60);
+}
+
+section#dwightsHayPlaceCard > aside {
+  grid-column: 1;
+}
+
+section#dwightsHayPlaceCard > summary {
+  grid-column: 2;
+}
+
+
+
+
+section#queimadaSocialCard {
+  grid-row: 5 / 6;
+
+  display: grid;
+  grid-template-columns: calc(1920*.40) calc(1920*.60);
+}
+
+section#queimadaSocialCard > aside {
+  grid-column: 1;
+}
+
+section#queimadaSocialCard > summary {
+  grid-column: 2;
+}
+
+
+
+section#impatienceCard {
+  grid-row: 6 / 7;
+
+  display: grid;
+  grid-template-columns: calc(1920*.40) calc(1920*.60);
+
+}
+
+section#impatienceCard > aside {
+  grid-column: 1;
+}
+
+section#impatienceCard > summary {
+  grid-column: 2;
+}
+
+aside {
+  text-align: center;
+}
+
+.demoWide {
+  width: 90%;
+  height: *;
+  margin: 5%;
+}
+
+.demoLong {
+  min-width: 70%;
+  min-height: 10%;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.demoPic {
+  border: 2px black solid;
+
+}
+
+.blurb {
+  font-size: 2.5vh;
+  display: block;
+}
