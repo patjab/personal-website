@@ -97,7 +97,7 @@ section {
 }
 
 section:not(#firstCard) {
-  padding-top: 20vh;
+  padding-top: 12vmax;
 }
 
 
